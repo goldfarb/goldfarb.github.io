@@ -1,0 +1,162 @@
+body {
+	background-color: #eee;
+	font-family: 'Montserrat','Arial', 'Helvetica', sans-serif;
+	color: #222;
+}
+
+a:link, a:visited {
+  color: #222;
+  background: #ddd;
+  text-decoration: none; 
+}
+
+a:hover, a:active {
+  color: #222;
+  background: #777;
+  text-decoration: none;
+}
+
+p {
+	margin-left: 20%;
+	margin-right: 20%;
+	line-height: 150%;
+}
+
+img {
+	display: block;
+ 	width: 80%;
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+.ddata {
+	display: inline;
+	width:50%;
+}
+
+.caption {
+	font-size: .8em;
+	font-style: italic;
+	display: block;
+ 	
+	margin-top:12px;
+	margin-bottom:30px; 	
+	margin-left: 30%;
+  	margin-right: 30%;
+	max-width: 800px;
+}
+
+.cite {
+	font-size: .7em;
+	display: block;
+	
+ 	width: 30%;
+	margin-top:12px;
+	margin-bottom:30px; 	
+	margin-left: 30%;
+  	margin-right: auto;
+	max-width: 800px;
+}
+
+.hand {
+	transform: rotate(180deg);
+	display: inline;
+	width: 20%;
+}
+
+.rhand {
+	display: inline;
+	width: 20%;
+	margin-left: 80%;
+	transform: scaleX(-1);
+	transform: scaleY(-1);
+}
+
+.hurricane {
+	display: inline;
+	width: 50%;
+	margin-left: 25%;
+}
+
+.ri {
+	width: 70%;
+}
+
+.piecaptionsm{
+	display:none;
+}
+
+
+h1 {
+	margin-left: 20%;
+	margin-right: 20%;
+	text-transform: uppercase;
+	font-size: 150%; 
+
+}
+
+h2 {
+	margin-left: 40px;
+
+}
+
+
+@media screen and (max-width: 600px) {
+  body {
+    margin:8%;
+  }
+
+  p {
+  	margin-left: 0;	
+  	margin-right: 0;	
+  	margin-bottom: 6px;
+  }
+  .caption{
+  	margin-top:6px;
+	margin-bottom:15px; 
+  }
+  
+  img {
+  	width: 95%
+  }
+
+  h1{
+  	margin-left: 10px;
+	margin-right: 10px;
+	font-size:100%;
+  }
+  .ddata {
+	display: inline;
+	width:90%;
+}
+.pie{
+	display: inline;
+	width: 50%;
+	margin-left: 5%;
+	margin-top: 5px;
+}
+.piecaption{
+	display: none;
+}
+.piecaptionsm{
+	display: inline;
+}
+
+.cite {
+	font-size: .7em;
+	display: block;
+	
+ 	width: 90%;
+	margin-top:4px;
+	margin-bottom:8px; 	
+	margin-left: 5%;
+  	margin-right: auto;
+}
+
+  .caption{
+  	width: 90%;
+	margin-top:4px;
+	margin-bottom:8px; 	
+	margin-left: 5%; 
+  }
+}
